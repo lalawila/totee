@@ -1,0 +1,18 @@
+{
+    "scripts": {
+        "migrate": "truffle migrate --network development",
+        "develop": "truffle develop",
+        "compile": "truffle compile",
+        "console": "truffle console",
+        "test": "truffle test",
+        "migrate:main": "truffle migrate --network matic_main",
+        "migrate:test": "truffle migrate --network matic_test"
+    },
+    "devDependencies": {
+        "@openzeppelin/contracts-upgradeable": "^4.5.2",
+        "@openzeppelin/truffle-upgrades": "^1.8.0",
+        "@truffle/hdwallet-provider": "^1.7.0",
+        "dotenv": "^16.0.0",
+        "truffle": "^5.1.67"
+    }
+}

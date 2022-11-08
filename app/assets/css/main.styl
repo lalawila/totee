@@ -1,0 +1,46 @@
+/**
+ * Disable smooth scrolling when users have prefers-reduced-motion enabled
+ */
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+:root
+    box-sizing border-box /* 设置根元素的 box-sizing: border-box */
+*,
+*:before,
+*:after
+    box-sizing inherit /* box-sizing 继承自父元素 */
+    overflow-wrap anywhere
+
+
+
+body
+    margin 0
+    color #333
+    
+.round
+    border-radius 9999px
+
+.hover
+    transition 0.2s
+
+.hover:hover
+    background-color #e7e7e8
+
+.right-10
+    margin-right 10px
+
+.left-10
+    margin-left 10px
+
+.margin-0
+    margin 0
+
+.clear-a
+    a
+        color inherit
+        text-decoration none
+

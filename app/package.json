@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "nuxt dev",
+        "build": "nuxt build",
+        "start": "node .output/server/index.mjs"
+    },
+    "devDependencies": {
+        "@editorjs/link": "^2.4.1",
+        "@intlify/nuxt3": "^0.2.1",
+        "arconnect": "^0.4.1",
+        "editorjs-drag-drop": "^1.1.0",
+        "editorjs-undo": "^2.0.0-rc.2",
+        "element-plus": "^2.1.11",
+        "esbuild": "^0.14.38",
+        "nuxt": "^3.0.0-rc.2",
+        "stylus": "^0.57.0",
+        "vite-svg-loader": "^3.3.0"
+    },
+    "dependencies": {
+        "@codexteam/ajax": "^4.2.0",
+        "@editorjs/editorjs": "^2.24.2",
+        "@editorjs/embed": "^2.5.1",
+        "@editorjs/header": "^2.6.2",
+        "@editorjs/image": "^2.6.2",
+        "@editorjs/list": "^1.7.0",
+        "@ethersproject/shims": "^5.6.0",
+        "@metamask/detect-provider": "^1.2.0",
+        "@pinia/nuxt": "^0.1.8",
+        "@weekwood/editorjs-video": "^1.0.2",
+        "arweave": "^1.10.23",
+        "compressorjs": "^1.1.1",
+        "ethers": "^5.6.5",
+        "formidable": "^3.2.3",
+        "pinia": "^2.0.14",
+        "pinia-plugin-persistedstate": "^1.5.1",
+        "placeholder-loading": "^0.5.0",
+        "video.js": "^7.18.1"
+    }
+}
